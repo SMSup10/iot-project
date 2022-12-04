@@ -90,11 +90,15 @@ p.write(m); // 아두이노에 시리얼로 값을 전달
 
 else if (m.indexOf("GET")==0) { // 온도값
 
+ if (msg!=null) {
+
 c.write("HTTP/1.1 200 OK\r\n"); // POST 규격
 
 c.write("Content-length: " + msg.length() + " \r\n\r\n"); // 데이터 길이
 
 c.write(msg); // 클라이언트에 값을 전달
+
+}
 
 }
 
