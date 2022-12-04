@@ -1,6 +1,8 @@
 # iot-project
 창의공학 iot 실습 프로젝트
 
+![KakaoTalk_20221204_234652674](https://user-images.githubusercontent.com/75311640/205497341-753b4fa0-65fe-4075-b5ca-07231bac731e.jpg)
+
 # 아두이노 코드
 void setup(){ 
 Serial.begin(9600); //시리얼 시작 
@@ -124,5 +126,9 @@ print(m);
 
 
 ![코드 ㅇ앱](https://user-images.githubusercontent.com/75311640/205496759-4929d34e-4c9a-423c-857f-70325abd45fa.PNG)
+
+//서버에서 텍스트가 전달되어지면 라벨1의 텍스트에 받은 온도값으로 넣겠다.
+
+//서버로 textbox1의 값을 전달 서버에서 값을 받아온다.
 
 
